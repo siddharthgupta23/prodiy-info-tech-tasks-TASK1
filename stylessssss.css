@@ -1,0 +1,56 @@
+body{
+    margin:0;
+     font-family:Arial, Helvetica, sans-serif ;
+     background-color: greenyellow;
+     color: blue;
+}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:red;
+    z-index:1000;
+    transition: background-color 0.7s ease;
+
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:flex;
+}
+nav ul li{
+margin-right:20px;
+
+}
+nav ul li a{
+    text-decoration :none;
+    color:pink;
+}
+.ct
+{
+    padding-top:80px;
+}
+nav.violet-bg {
+  background: linear-gradient(to right, violet,blue );
+}
+p
+
+{
+  font-size: medium;
+  text-decoration: aqua;
+}
+
+nav.cir-bg {
+  background: radial-gradient(circle,violet,blue );
+}
+.center {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size:small;
+  text-decoration-color: blueviolet;
+}
